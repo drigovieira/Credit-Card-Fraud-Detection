@@ -13,6 +13,9 @@ O dataset contém transações realizadas por cartões de crédito em setembro d
 Tamanho: 284.807 transações, sendo 492 fraudulentas.
 ### Variáveis:
 Time: Segundos decorridos desde a primeira transação.
+
 Amount: Valor da transação.
+
 V1 a V28: Componentes principais derivados de uma transformação PCA.
+
 Class: Rótulo da transação (1 para fraude, 0 caso contrário).
