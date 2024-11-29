@@ -6,10 +6,10 @@ Este projeto utiliza aprendizado de máquina para identificar fraudes em transa�
 
 O objetivo é criar um modelo robusto que maximize a métrica AUC-PR (Área sob a Curva de Precisão e Recall), já que métricas como acurácia são ineficazes para datasets altamente desbalanceados.
 
-###Sobre o Dataset
+### Sobre o Dataset
 O dataset contém transações realizadas por cartões de crédito em setembro de 2013 por clientes europeus.
 
-###Características principais:
+### Características principais:
 Tamanho: 284.807 transações, sendo 492 fraudulentas.
 ###Variáveis:
 Time: Segundos decorridos desde a primeira transação.
