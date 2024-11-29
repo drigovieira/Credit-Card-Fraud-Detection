@@ -1,5 +1,5 @@
 # Credit Card Fraud Detection and Prevention
-### Analisando padrões de fraude em transações com cartões de crédito e explorando métodos de detecção e prevenção.
+Analisando padrões de fraude em transações com cartões de crédito e explorando métodos de detecção e prevenção.
 
 ## Descrição do Projeto
 Este projeto visa analisar padrões de fraude em cartões de crédito, entender os fatores que contribuem para atividades fraudulentas e explorar métodos eficazes de detecção e prevenção. Utilizando um conjunto de dados simulado de transações, o objetivo é desenvolver modelos preditivos que possam identificar transações fraudulentas com base em características como valor da transação, tipo de transação, e localização.
@@ -42,6 +42,6 @@ Linguagem: Python
 
 Bibliotecas:
 - Manipulação de dados: Pandas, NumPy
-- Visualização: Matplotlib, Seaborn
+- Visualização: Matplotlib, Seaborn, Plotly
 - Modelagem: 
 - Avaliação: 
