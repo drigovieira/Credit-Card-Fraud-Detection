@@ -12,15 +12,21 @@ O dataset contém transações realizadas por cartões de crédito em setembro d
 ### Características principais:
 Tamanho: 284.807 transações, sendo 492 fraudulentas.
 ### Variáveis:
-Time: Segundos decorridos desde a primeira transação.
-
-Amount: Valor da transação.
-
-V1 a V28: Componentes principais derivados de uma transformação PCA.
-
-Class: Rótulo da transação (1 para fraude, 0 caso contrário).
+- Time: Segundos decorridos desde a primeira transação.
+- Amount: Valor da transação.
+- V1 a V28: Componentes principais derivados de uma transformação PCA.
+- Class: Rótulo da transação (1 para fraude, 0 caso contrário).
 
 ### Fonte:
 Os dados foram disponibilizados por uma colaboração entre Worldline e a Machine Learning Group da Université Libre de Bruxelles (ULB).
 
 Dataset no Kaggle: https://www.kaggle.com/api/v1/datasets/download/mlg-ulb/creditcardfraud
+
+## Tecnologias Utilizadas
+Linguagem: Python
+
+Bibliotecas:
+- Manipulação de dados: Pandas, NumPy
+- Visualização: Matplotlib, Seaborn
+- Modelagem: Scikit-learn, XGBoost
+- Avaliação: Imbalanced-learn, Precision-Recall AUC
