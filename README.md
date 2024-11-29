@@ -11,7 +11,7 @@ O dataset contém transações realizadas por cartões de crédito em setembro d
 
 ### Características principais:
 Tamanho: 284.807 transações, sendo 492 fraudulentas.
-###Variáveis:
+### Variáveis:
 Time: Segundos decorridos desde a primeira transação.
 Amount: Valor da transação.
 V1 a V28: Componentes principais derivados de uma transformação PCA.
